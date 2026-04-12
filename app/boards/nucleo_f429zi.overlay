@@ -1,0 +1,8 @@
+/ {
+	aliases {
+		comm-led = &green_led_1;
+		status-led = &blue_led_1;
+		power-led = &red_led_1;
+		my-sw = &user_button;
+	};
+};
