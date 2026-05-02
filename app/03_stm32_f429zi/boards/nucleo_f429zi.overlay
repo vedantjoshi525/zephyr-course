@@ -1,0 +1,7 @@
+/ {
+	aliases {
+
+		status-led = &blue_led_1;
+		power-led = &red_led_1;
+	};
+};

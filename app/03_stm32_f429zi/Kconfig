@@ -1,0 +1,10 @@
+source "Kconfig.zephyr"
+
+menu "My app config"
+
+config APP_HEARTBEAT_PERIOD_MS
+	int "Heartbeat period in ms"
+	default 500
+	range 100 2000
+
+endmenu
