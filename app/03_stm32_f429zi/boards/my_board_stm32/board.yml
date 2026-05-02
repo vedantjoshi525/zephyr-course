@@ -1,0 +1,6 @@
+board:
+  name: my_board_stm32
+  full_name: My Board STM32
+  vendor: vedant
+  socs:
+    - name: stm32f429xx
